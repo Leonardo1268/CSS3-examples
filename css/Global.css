@@ -1,0 +1,106 @@
+.main_container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  text-align: center;
+  height: 900px;
+}
+
+a {
+  text-decoration: none;
+  color: #e83119;
+}
+
+h1 {
+  color: red;
+}
+
+ul { 
+  text-decoration: none;
+}
+
+img {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.navbar-nav {
+	margin-top: 30px;
+    word-spacing: 25px;
+    font-size: 20px;
+	
+}
+
+.navbar-nav li {
+  display: inline;
+
+}
+
+.navbar-nav a {
+	border-bottom: 3px solid #e83119;	
+	-webkit-transition: border .3s ease-out, color .4s ease-out;
+}
+
+.navbar-nav a:hover {
+	border-bottom: 30px solid #e83119;
+	color: black;
+
+}
+
+.bg-clip {
+	margin-top: 30px;
+	font-size: 100px;
+	background: url(../img/redbg.jpg);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.shadowed {
+border: 3px solid #fff;
+-o-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+-moz-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 3px 4px rgba(0,0,0,.5);
+box-shadow: 0 3px 4px rgba(0,0,0,.5);
+}
+
+.smash1 {
+	width: 300px;
+	-o-transform: rotate(2.5deg);
+	-moz-transform: rotate(2.5deg);
+	-webkit-transform: rotate(2.5deg);
+}
+
+.smash2 {
+	width: 300px;
+	-o-transform: rotate(2.5deg);
+	-moz-transform: rotate(2.5deg);
+	-webkit-transform: rotate(2.5deg);
+}
+
+.circle_motion {
+-webkit-animation-name: track;
+-webkit-animation-duration: 3s;
+-webkit-animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes track {
+0% {
+margin-top:0px;
+}
+
+25% {
+
+}
+
+50% {
+margin-top:300px;
+margin-left: 0px;
+}
+
+}
+100% {
+margin-left: 0px;	
+}
+
+}
